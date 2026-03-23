@@ -1,30 +1,14 @@
+## Repository Structure
 ```
-C:.
-│   .env
-│   requirements.txt
+TrueReview/
 │
-├───data
-│       final_dataset.csv
-│       final_dataset.json
+├── data/                # output files
+├── src/
+│   ├── api/             # GitHub API logic
+│   ├── extract/         # data processing
+│   ├── utils/           # helpers
+│   └── main.py          # entry point
 │
-├───src
-│   │   config.py
-│   │   main.py
-│   │
-│   ├───api
-│   │   │   github_api.py
-│   │   
-│   │   
-│   │           
-│   │
-│   ├───extract
-│   │   │   normalize.py
-│   │   
-│   │   
-│   │      
-│   │
-│   ├───utils
-│   
-│           
-│
+├── config.py
+└── requirements.txt
 ```
