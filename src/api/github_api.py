@@ -6,13 +6,24 @@ def get_all_prs(owner, repo, state="closed"):
     prs = []
     page = 1
 
-    while True:
+    while page <= 5:
         url = f"{BASE_URL}/repos/{owner}/{repo}/pulls"
         params = {"state": state, "per_page": 100, "page": page}
 
         response = requests.get(url, headers=HEADERS, params=params)
-        data = response.json()
+        
+        if response.status_code != 200:
+            print("❌ ERROR:", response.status_code)
+            print(response.text)
+            break
 
+        try:
+            data = response.json()
+        except:
+            print("JSON PARSE ERROR")
+            print(response.text)
+            break 
+        
         if not data:
             break
 
