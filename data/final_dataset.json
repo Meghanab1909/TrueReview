@@ -10,7 +10,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "add zizmor to scan workflows"
+        "message": "add zizmor to scan workflows",
+        "timestamp": "2026-03-08T23:05:00Z"
       }
     ],
     "accepted": true
@@ -26,7 +27,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "all teardown callbacks are called despite errors"
+        "message": "all teardown callbacks are called despite errors",
+        "timestamp": "2026-02-20T03:41:50Z"
       }
     ],
     "accepted": true
@@ -42,7 +44,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.1.3"
+        "message": "release version 3.1.3",
+        "timestamp": "2026-02-19T03:41:55Z"
       }
     ],
     "accepted": true
@@ -64,7 +67,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "fix provide_automatic_options override"
+        "message": "fix provide_automatic_options override",
+        "timestamp": "2026-02-12T21:03:03Z"
       }
     ],
     "accepted": true
@@ -91,7 +95,8 @@
     "commits": [
       {
         "author": "Markus Heidelberg",
-        "message": "Abort if the instance folder cannot be created\n\nAccording to the comment, the instance folder should exist in any case.\nBut a PermissionError was ignored silently.\n\nSince Python 3.9 is the minimum required version, it is safe to use\n\"exist_ok\" added in Python 3.2 and avoid exception handling."
+        "message": "Abort if the instance folder cannot be created\n\nAccording to the comment, the instance folder should exist in any case.\nBut a PermissionError was ignored silently.\n\nSince Python 3.9 is the minimum required version, it is safe to use\n\"exist_ok\" added in Python 3.2 and avoid exception handling.",
+        "timestamp": "2026-01-20T13:16:17Z"
       }
     ],
     "accepted": true
@@ -107,7 +112,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "document using gevent for async"
+        "message": "document using gevent for async",
+        "timestamp": "2026-01-25T18:31:31Z"
       }
     ],
     "accepted": true
@@ -123,7 +129,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "deprecate should_ignore_error"
+        "message": "deprecate should_ignore_error",
+        "timestamp": "2026-01-25T03:50:30Z"
       }
     ],
     "accepted": true
@@ -139,7 +146,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "redirect defaults to 303"
+        "message": "redirect defaults to 303",
+        "timestamp": "2026-01-25T00:50:54Z"
       }
     ],
     "accepted": true
@@ -155,7 +163,8 @@
     "commits": [
       {
         "author": "Markus Heidelberg",
-        "message": "Increase required flit_core version to 3.11\n\nNeeded since Flask 3.1.1 after having set the \"license\" keyword to an\nSPDX license expression. Avoids this possible build error:\n\n  flit_core.config.ConfigError: license field should be <class 'dict'>, not <class 'str'>\n\nFixes: 0109e496f (\"use uv\")."
+        "message": "Increase required flit_core version to 3.11\n\nNeeded since Flask 3.1.1 after having set the \"license\" keyword to an\nSPDX license expression. Avoids this possible build error:\n\n  flit_core.config.ConfigError: license field should be <class 'dict'>, not <class 'str'>\n\nFixes: 0109e496f (\"use uv\").",
+        "timestamp": "2025-12-17T14:44:15Z"
       }
     ],
     "accepted": true
@@ -171,11 +180,13 @@
     "commits": [
       {
         "author": "Christian Clauss",
-        "message": "pre-commit: Add codespell"
+        "message": "pre-commit: Add codespell",
+        "timestamp": "2025-11-05T17:13:26Z"
       },
       {
         "author": "David Lord",
-        "message": "update ruff hook and noqa\n\nco-authored-by: Christian Clauss <cclauss@me.com>"
+        "message": "update ruff hook and noqa\n\nco-authored-by: Christian Clauss <cclauss@me.com>",
+        "timestamp": "2026-01-25T02:58:45Z"
       }
     ],
     "accepted": true
@@ -191,11 +202,13 @@
     "commits": [
       {
         "author": "Hynek Schlawack",
-        "message": "docs: fix typo in 'Lifecycle' heading"
+        "message": "docs: fix typo in 'Lifecycle' heading",
+        "timestamp": "2025-10-14T07:39:40Z"
       },
       {
         "author": "Hynek Schlawack",
-        "message": "Fix formatting and typos in design documentation"
+        "message": "Fix formatting and typos in design documentation",
+        "timestamp": "2025-10-14T07:42:20Z"
       }
     ],
     "accepted": true
@@ -237,11 +250,13 @@
     "commits": [
       {
         "author": "Aditya",
-        "message": "docs: clarify 415 vs 400 errors for request.json"
+        "message": "docs: clarify 415 vs 400 errors for request.json",
+        "timestamp": "2025-10-09T07:01:01Z"
       },
       {
         "author": "Aditya",
-        "message": "docs: clarify 415 vs 400 errors for request.json\n\nDistinguish between 415 Unsupported Media Type (wrong Content-Type)\nand 400 Bad Request (invalid JSON body) to align with API documentation.\n\nFixes #58254"
+        "message": "docs: clarify 415 vs 400 errors for request.json\n\nDistinguish between 415 Unsupported Media Type (wrong Content-Type)\nand 400 Bad Request (invalid JSON body) to align with API documentation.\n\nFixes #58254",
+        "timestamp": "2025-10-09T07:03:43Z"
       }
     ],
     "accepted": true
@@ -257,7 +272,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "pass context through dispatch methods"
+        "message": "pass context through dispatch methods",
+        "timestamp": "2025-09-19T23:58:48Z"
       }
     ],
     "accepted": true
@@ -289,7 +305,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "merge app and request context"
+        "message": "merge app and request context",
+        "timestamp": "2025-09-12T21:52:03Z"
       }
     ],
     "accepted": true
@@ -316,7 +333,8 @@
     "commits": [
       {
         "author": "subhajitsaha01",
-        "message": "Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py"
+        "message": "Changed the static annotated type of select_jinja_autoescape method in src/flask/sansio/app.py",
+        "timestamp": "2025-09-06T16:31:22Z"
       }
     ],
     "accepted": true
@@ -332,7 +350,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.1.2"
+        "message": "release version 3.1.2",
+        "timestamp": "2025-08-19T20:42:11Z"
       }
     ],
     "accepted": true
@@ -348,7 +367,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "refactor stream_with_context for async views"
+        "message": "refactor stream_with_context for async views",
+        "timestamp": "2025-08-19T15:18:55Z"
       }
     ],
     "accepted": true
@@ -364,7 +384,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "security docs for TRUSTED_HOSTS"
+        "message": "security docs for TRUSTED_HOSTS",
+        "timestamp": "2025-08-18T18:42:48Z"
       }
     ],
     "accepted": true
@@ -380,7 +401,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "push preserved contexts in correct order"
+        "message": "push preserved contexts in correct order",
+        "timestamp": "2025-08-18T16:41:03Z"
       }
     ],
     "accepted": true
@@ -407,7 +429,8 @@
     "commits": [
       {
         "author": "Grant Birkinbine",
-        "message": "Update GitHub Actions workflow for artifact handling"
+        "message": "Update GitHub Actions workflow for artifact handling",
+        "timestamp": "2025-08-07T04:44:28Z"
       }
     ],
     "accepted": true
@@ -434,7 +457,8 @@
     "commits": [
       {
         "author": "Tero Vuotila",
-        "message": "relax type hint for bytes io"
+        "message": "relax type hint for bytes io",
+        "timestamp": "2025-07-16T09:21:50Z"
       }
     ],
     "accepted": true
@@ -450,7 +474,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "svg logo"
+        "message": "svg logo",
+        "timestamp": "2025-06-09T21:31:31Z"
       }
     ],
     "accepted": true
@@ -466,7 +491,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "remove slsa provenance\n\nPyPI trusted publishing has its own attestation support now."
+        "message": "remove slsa provenance\n\nPyPI trusted publishing has its own attestation support now.",
+        "timestamp": "2025-06-08T16:43:05Z"
       }
     ],
     "accepted": true
@@ -503,7 +529,8 @@
     "commits": [
       {
         "author": "Badhreesh",
-        "message": "demonstrate escaping with query string\n\nslash in value would be interpreted as a path separator in the URL"
+        "message": "demonstrate escaping with query string\n\nslash in value would be interpreted as a path separator in the URL",
+        "timestamp": "2025-05-21T18:35:11Z"
       }
     ],
     "accepted": true
@@ -585,7 +612,8 @@
     "commits": [
       {
         "author": "AJ Jordan",
-        "message": "Fix global CONTRIBUTING link"
+        "message": "Fix global CONTRIBUTING link",
+        "timestamp": "2025-05-18T15:11:00Z"
       }
     ],
     "accepted": true
@@ -627,11 +655,13 @@
     "commits": [
       {
         "author": "kadai0308",
-        "message": "use template_filter without parens"
+        "message": "use template_filter without parens",
+        "timestamp": "2025-05-17T04:17:18Z"
       },
       {
         "author": "David Lord",
-        "message": "rewrite docs, clean up typing for template decorators"
+        "message": "rewrite docs, clean up typing for template decorators",
+        "timestamp": "2025-08-19T19:29:47Z"
       }
     ],
     "accepted": true
@@ -647,7 +677,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "drop end of life python versions"
+        "message": "drop end of life python versions",
+        "timestamp": "2025-05-13T15:31:54Z"
       }
     ],
     "accepted": true
@@ -669,7 +700,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.1.1"
+        "message": "release version 3.1.1",
+        "timestamp": "2025-05-13T14:51:12Z"
       }
     ],
     "accepted": true
@@ -685,7 +717,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "use uv"
+        "message": "use uv",
+        "timestamp": "2025-05-12T00:45:03Z"
       }
     ],
     "accepted": true
@@ -701,7 +734,8 @@
     "commits": [
       {
         "author": "abhiram kamini",
-        "message": "Update server.rst\n\nmade changes to rename system preferences to system settings according to new mac os name change"
+        "message": "Update server.rst\n\nmade changes to rename system preferences to system settings according to new mac os name change",
+        "timestamp": "2025-05-01T15:40:57Z"
       }
     ],
     "accepted": true
@@ -717,7 +751,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "remove tests about deprecated pkgutil.get_loader"
+        "message": "remove tests about deprecated pkgutil.get_loader",
+        "timestamp": "2025-03-29T22:42:58Z"
       }
     ],
     "accepted": true
@@ -733,7 +768,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "add endpoint name in favicon example"
+        "message": "add endpoint name in favicon example",
+        "timestamp": "2025-03-29T22:30:56Z"
       }
     ],
     "accepted": true
@@ -749,7 +785,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "better type checking during deprecation"
+        "message": "better type checking during deprecation",
+        "timestamp": "2025-03-29T22:23:34Z"
       }
     ],
     "accepted": true
@@ -765,7 +802,8 @@
     "commits": [
       {
         "author": "black",
-        "message": "Remove HTTP Public Key Pinning from docs\n\nThe header is considered obsolete and no longer supported by any major\nbrowser. MDN link is dead."
+        "message": "Remove HTTP Public Key Pinning from docs\n\nThe header is considered obsolete and no longer supported by any major\nbrowser. MDN link is dead.",
+        "timestamp": "2025-03-24T09:42:52Z"
       }
     ],
     "accepted": true
@@ -781,7 +819,8 @@
     "commits": [
       {
         "author": "George Waters",
-        "message": "Handle help arg by itself the same as no args\n\nWhen the 'flask' command is used with only the '--help' parameter, this\nchange will make sure to try and load the app before the help callback\nis run. This was previously only being done when the 'flask' command was\nused by itself. This meant when passing in '--help', any custom commands\nwere not getting shown in the help message. With this change, custom\ncommands will be included in the help message when running 'flask' on\nthe command line by itself or with the '--help' parameter."
+        "message": "Handle help arg by itself the same as no args\n\nWhen the 'flask' command is used with only the '--help' parameter, this\nchange will make sure to try and load the app before the help callback\nis run. This was previously only being done when the 'flask' command was\nused by itself. This meant when passing in '--help', any custom commands\nwere not getting shown in the help message. With this change, custom\ncommands will be included in the help message when running 'flask' on\nthe command line by itself or with the '--help' parameter.",
+        "timestamp": "2025-01-30T03:22:52Z"
       }
     ],
     "accepted": true
@@ -797,7 +836,8 @@
     "commits": [
       {
         "author": "kotvkvante",
-        "message": "fix bash cli syntax error and app name"
+        "message": "fix bash cli syntax error and app name",
+        "timestamp": "2025-01-25T22:12:11Z"
       }
     ],
     "accepted": true
@@ -824,7 +864,8 @@
     "commits": [
       {
         "author": "CoolCat467",
-        "message": "Accept `AsyncIterable` for responses"
+        "message": "Accept `AsyncIterable` for responses",
+        "timestamp": "2024-11-18T18:55:14Z"
       }
     ],
     "accepted": true
@@ -840,7 +881,8 @@
     "commits": [
       {
         "author": "zhuangzhuang",
-        "message": "Update mongoengine.rst"
+        "message": "Update mongoengine.rst",
+        "timestamp": "2024-11-27T10:14:18Z"
       }
     ],
     "accepted": true
@@ -856,7 +898,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "update `__version__` deprecation"
+        "message": "update `__version__` deprecation",
+        "timestamp": "2024-11-24T00:03:47Z"
       }
     ],
     "accepted": true
@@ -872,7 +915,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "remove previously deprecated code"
+        "message": "remove previously deprecated code",
+        "timestamp": "2024-11-23T23:41:36Z"
       }
     ],
     "accepted": true
@@ -919,7 +963,8 @@
     "commits": [
       {
         "author": "kurtatter",
-        "message": "fix type hint for `cli_runner.invoke`"
+        "message": "fix type hint for `cli_runner.invoke`",
+        "timestamp": "2024-11-23T00:23:09Z"
       }
     ],
     "accepted": true
@@ -935,7 +980,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.1.0"
+        "message": "release version 3.1.0",
+        "timestamp": "2024-11-13T16:43:28Z"
       }
     ],
     "accepted": true
@@ -951,7 +997,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "use generic bases for session"
+        "message": "use generic bases for session",
+        "timestamp": "2024-11-13T16:22:57Z"
       }
     ],
     "accepted": true
@@ -967,7 +1014,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "configure and check trusted_hosts"
+        "message": "configure and check trusted_hosts",
+        "timestamp": "2024-11-13T04:32:53Z"
       }
     ],
     "accepted": true
@@ -994,7 +1042,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "fix subdomain_matching=False behavior"
+        "message": "fix subdomain_matching=False behavior",
+        "timestamp": "2024-11-11T04:13:05Z"
       }
     ],
     "accepted": true
@@ -1010,7 +1059,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "update min blinker version"
+        "message": "update min blinker version",
+        "timestamp": "2024-11-08T17:48:59Z"
       }
     ],
     "accepted": true
@@ -1026,7 +1076,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "enable secret key rotation"
+        "message": "enable secret key rotation",
+        "timestamp": "2024-11-08T16:09:01Z"
       }
     ],
     "accepted": true
@@ -1042,7 +1093,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "update env file precedence"
+        "message": "update env file precedence",
+        "timestamp": "2024-11-07T19:27:51Z"
       }
     ],
     "accepted": true
@@ -1058,15 +1110,18 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "fix js example test"
+        "message": "fix js example test",
+        "timestamp": "2024-11-01T23:44:17Z"
       },
       {
         "author": "David Lord",
-        "message": "add sqlite datetime converter"
+        "message": "add sqlite datetime converter",
+        "timestamp": "2024-11-02T00:18:52Z"
       },
       {
         "author": "David Lord",
-        "message": "update example project metadata"
+        "message": "update example project metadata",
+        "timestamp": "2024-11-02T01:00:39Z"
       }
     ],
     "accepted": true
@@ -1082,7 +1137,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "add config and docs for limits"
+        "message": "add config and docs for limits",
+        "timestamp": "2024-11-01T20:13:05Z"
       }
     ],
     "accepted": true
@@ -1098,15 +1154,18 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "no need for separate requirements-skip folder anymore"
+        "message": "no need for separate requirements-skip folder anymore",
+        "timestamp": "2024-10-31T19:59:47Z"
       },
       {
         "author": "David Lord",
-        "message": "update dev dependencies"
+        "message": "update dev dependencies",
+        "timestamp": "2024-10-31T20:04:44Z"
       },
       {
         "author": "David Lord",
-        "message": "update min dependencies"
+        "message": "update min dependencies",
+        "timestamp": "2024-10-31T20:11:06Z"
       }
     ],
     "accepted": true
@@ -1122,7 +1181,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "drop support for Python 3.8"
+        "message": "drop support for Python 3.8",
+        "timestamp": "2024-10-31T19:28:46Z"
       }
     ],
     "accepted": true
@@ -1138,7 +1198,8 @@
     "commits": [
       {
         "author": "bre-17387639",
-        "message": "fix pyright type errors"
+        "message": "fix pyright type errors",
+        "timestamp": "2024-08-06T22:46:15Z"
       }
     ],
     "accepted": true
@@ -1154,7 +1215,8 @@
     "commits": [
       {
         "author": "Catarina Bressan",
-        "message": "Fix the issue link in the Flask 3.0.1 Changelog in the send_file argument type entry"
+        "message": "Fix the issue link in the Flask 3.0.1 Changelog in the send_file argument type entry",
+        "timestamp": "2024-10-22T20:32:02Z"
       }
     ],
     "accepted": true
@@ -1170,7 +1232,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "use python 3.9 to test dev versions"
+        "message": "use python 3.9 to test dev versions",
+        "timestamp": "2024-10-18T20:19:51Z"
       }
     ],
     "accepted": true
@@ -1202,7 +1265,8 @@
     "commits": [
       {
         "author": "Grey Li",
-        "message": "Fix typo in the changelog"
+        "message": "Fix typo in the changelog",
+        "timestamp": "2024-09-22T13:42:35Z"
       }
     ],
     "accepted": true
@@ -1218,11 +1282,13 @@
     "commits": [
       {
         "author": "David Carmichael",
-        "message": "update helpers.send_from_directory docstring\n\n Update helpers.send_from_directory docstring to match werkzeug.utils.send_from_directory docstring on the :param directory: line.\n\n The previous \"relative to the current application's root path\" is misleading to the actual behavior."
+        "message": "update helpers.send_from_directory docstring\n\n Update helpers.send_from_directory docstring to match werkzeug.utils.send_from_directory docstring on the :param directory: line.\n\n The previous \"relative to the current application's root path\" is misleading to the actual behavior.",
+        "timestamp": "2024-09-07T11:07:41Z"
       },
       {
         "author": "David",
-        "message": "updated to include original wording"
+        "message": "updated to include original wording",
+        "timestamp": "2024-11-06T17:46:14Z"
       }
     ],
     "accepted": true
@@ -1238,7 +1304,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.5.0 \u2192 v0.5.6](https://github.com/astral-sh/ruff-pre-commit/compare/v0.5.0...v0.5.6)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.5.0 \u2192 v0.5.6](https://github.com/astral-sh/ruff-pre-commit/compare/v0.5.0...v0.5.6)",
+        "timestamp": "2024-08-05T23:09:19Z"
       }
     ],
     "accepted": true
@@ -1254,7 +1321,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 3 updates\n\nBumps the github-actions group with 3 updates: [actions/setup-python](https://github.com/actions/setup-python), [actions/upload-artifact](https://github.com/actions/upload-artifact) and [actions/download-artifact](https://github.com/actions/download-artifact).\n\n\nUpdates `actions/setup-python` from 5.1.0 to 5.1.1\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/82c7e631bb3cdc910f68e0081d67478d79c6982d...39cd14951b08e74b54015e9e001cdefcf80e669f)\n\nUpdates `actions/upload-artifact` from 4.3.3 to 4.3.4\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/65462800fd760344b1a7b4382951275a0abb4808...0b2256b8c012f0828dc542b3febcab082c67f72b)\n\nUpdates `actions/download-artifact` from 4.1.7 to 4.1.8\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/65a9edc5881444af0b9093a5e628f2fe47ea3b2e...fa0a91b85d4f404e444e00e005971372dc801d16)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/upload-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/download-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 3 updates\n\nBumps the github-actions group with 3 updates: [actions/setup-python](https://github.com/actions/setup-python), [actions/upload-artifact](https://github.com/actions/upload-artifact) and [actions/download-artifact](https://github.com/actions/download-artifact).\n\n\nUpdates `actions/setup-python` from 5.1.0 to 5.1.1\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/82c7e631bb3cdc910f68e0081d67478d79c6982d...39cd14951b08e74b54015e9e001cdefcf80e669f)\n\nUpdates `actions/upload-artifact` from 4.3.3 to 4.3.4\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/65462800fd760344b1a7b4382951275a0abb4808...0b2256b8c012f0828dc542b3febcab082c67f72b)\n\nUpdates `actions/download-artifact` from 4.1.7 to 4.1.8\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/65a9edc5881444af0b9093a5e628f2fe47ea3b2e...fa0a91b85d4f404e444e00e005971372dc801d16)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/upload-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/download-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-08-01T15:48:34Z"
       }
     ],
     "accepted": true
@@ -1276,7 +1344,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "add encoding parameter to open_resource\n\nco-authored-by: mark <lopkophacked@protonmail.com>"
+        "message": "add encoding parameter to open_resource\n\nco-authored-by: mark <lopkophacked@protonmail.com>",
+        "timestamp": "2024-07-10T14:37:32Z"
       }
     ],
     "accepted": true
@@ -1298,7 +1367,8 @@
     "commits": [
       {
         "author": "Amirreza A",
-        "message": "Update waitress.rst\n\nfixed a small typo"
+        "message": "Update waitress.rst\n\nfixed a small typo",
+        "timestamp": "2024-07-09T10:20:44Z"
       }
     ],
     "accepted": true
@@ -1314,7 +1384,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.4.7 \u2192 v0.5.0](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.7...v0.5.0)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.4.7 \u2192 v0.5.0](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.7...v0.5.0)",
+        "timestamp": "2024-07-02T00:15:33Z"
       }
     ],
     "accepted": true
@@ -1330,7 +1401,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [actions/checkout](https://github.com/actions/checkout) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `actions/checkout` from 4.1.6 to 4.1.7\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/a5ac7e51b41094c92402da3b24376905380afc29...692973e3d937129bcbf40652eb9f2f61becf3332)\n\nUpdates `pypa/gh-action-pypi-publish` from 1.8.14 to 1.9.0\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/81e9d935c883d0b210363ab89cf05f3894778450...ec4db0b4ddc65acdf4bff5fa45ac92d78b56bdf0)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [actions/checkout](https://github.com/actions/checkout) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `actions/checkout` from 4.1.6 to 4.1.7\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/a5ac7e51b41094c92402da3b24376905380afc29...692973e3d937129bcbf40652eb9f2f61becf3332)\n\nUpdates `pypa/gh-action-pypi-publish` from 1.8.14 to 1.9.0\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/81e9d935c883d0b210363ab89cf05f3894778450...ec4db0b4ddc65acdf4bff5fa45ac92d78b56bdf0)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-07-01T15:56:20Z"
       }
     ],
     "accepted": true
@@ -1346,7 +1418,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group in /requirements with 5 updates\n\nBumps the python-requirements group in /requirements with 5 updates:\n\n| Package | From | To |\n| --- | --- | --- |\n| [cryptography](https://github.com/pyca/cryptography) | `42.0.7` | `42.0.8` |\n| [mypy](https://github.com/python/mypy) | `1.10.0` | `1.10.1` |\n| [pyright](https://github.com/RobertCraigie/pyright-python) | `1.1.365` | `1.1.369` |\n| [pytest](https://github.com/pytest-dev/pytest) | `8.2.1` | `8.2.2` |\n| [tox](https://github.com/tox-dev/tox) | `4.15.0` | `4.15.1` |\n\n\nUpdates `cryptography` from 42.0.7 to 42.0.8\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/42.0.7...42.0.8)\n\nUpdates `mypy` from 1.10.0 to 1.10.1\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/v1.10.0...v1.10.1)\n\nUpdates `pyright` from 1.1.365 to 1.1.369\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.365...v1.1.369)\n\nUpdates `pytest` from 8.2.1 to 8.2.2\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/8.2.1...8.2.2)\n\nUpdates `tox` from 4.15.0 to 4.15.1\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.15.0...4.15.1)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group in /requirements with 5 updates\n\nBumps the python-requirements group in /requirements with 5 updates:\n\n| Package | From | To |\n| --- | --- | --- |\n| [cryptography](https://github.com/pyca/cryptography) | `42.0.7` | `42.0.8` |\n| [mypy](https://github.com/python/mypy) | `1.10.0` | `1.10.1` |\n| [pyright](https://github.com/RobertCraigie/pyright-python) | `1.1.365` | `1.1.369` |\n| [pytest](https://github.com/pytest-dev/pytest) | `8.2.1` | `8.2.2` |\n| [tox](https://github.com/tox-dev/tox) | `4.15.0` | `4.15.1` |\n\n\nUpdates `cryptography` from 42.0.7 to 42.0.8\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/42.0.7...42.0.8)\n\nUpdates `mypy` from 1.10.0 to 1.10.1\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/v1.10.0...v1.10.1)\n\nUpdates `pyright` from 1.1.365 to 1.1.369\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.365...v1.1.369)\n\nUpdates `pytest` from 8.2.1 to 8.2.2\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/8.2.1...8.2.2)\n\nUpdates `tox` from 4.15.0 to 4.15.1\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.15.0...4.15.1)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-07-01T15:28:16Z"
       }
     ],
     "accepted": true
@@ -1383,7 +1456,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "add SESSION_COOKIE_PARTITIONED config\n\nco-authored-by: Jose Cespedes <josecespedes@ibm.com>"
+        "message": "add SESSION_COOKIE_PARTITIONED config\n\nco-authored-by: Jose Cespedes <josecespedes@ibm.com>",
+        "timestamp": "2024-06-10T01:55:22Z"
       }
     ],
     "accepted": true
@@ -1410,7 +1484,8 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Provide a configuration option to control automatic option responses\n\nBy default Flask will provide responses to OPTIONS requests that are\nautomatically generated. These responses list the valid methods in the\nresponse headers. Whilst this is useful, it can be frowned on by\nauditors hence an ability to disable it wholesale is useful."
+        "message": "Provide a configuration option to control automatic option responses\n\nBy default Flask will provide responses to OPTIONS requests that are\nautomatically generated. These responses list the valid methods in the\nresponse headers. Whilst this is useful, it can be frowned on by\nauditors hence an ability to disable it wholesale is useful.",
+        "timestamp": "2024-06-05T12:23:18Z"
       }
     ],
     "accepted": true
@@ -1426,7 +1501,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.4.3 \u2192 v0.4.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.3...v0.4.7)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.4.3 \u2192 v0.4.7](https://github.com/astral-sh/ruff-pre-commit/compare/v0.4.3...v0.4.7)",
+        "timestamp": "2024-06-03T22:10:27Z"
       }
     ],
     "accepted": true
@@ -1442,7 +1518,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump actions/checkout from 4.1.4 to 4.1.6 in the github-actions group\n\nBumps the github-actions group with 1 update: [actions/checkout](https://github.com/actions/checkout).\n\n\nUpdates `actions/checkout` from 4.1.4 to 4.1.6\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/0ad4b8fadaa221de15dcec353f45205ec38ea70b...a5ac7e51b41094c92402da3b24376905380afc29)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump actions/checkout from 4.1.4 to 4.1.6 in the github-actions group\n\nBumps the github-actions group with 1 update: [actions/checkout](https://github.com/actions/checkout).\n\n\nUpdates `actions/checkout` from 4.1.4 to 4.1.6\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/0ad4b8fadaa221de15dcec353f45205ec38ea70b...a5ac7e51b41094c92402da3b24376905380afc29)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-06-01T15:55:45Z"
       }
     ],
     "accepted": true
@@ -1458,7 +1535,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [pyright](https://github.com/RobertCraigie/pyright-python), [pytest](https://github.com/pytest-dev/pytest) and [pre-commit](https://github.com/pre-commit/pre-commit).\n\n\nUpdates `pyright` from 1.1.361 to 1.1.365\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.361...v1.1.365)\n\nUpdates `pytest` from 8.2.0 to 8.2.1\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/8.2.0...8.2.1)\n\nUpdates `pre-commit` from 3.7.0 to 3.7.1\n- [Release notes](https://github.com/pre-commit/pre-commit/releases)\n- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/pre-commit/pre-commit/compare/v3.7.0...v3.7.1)\n\n---\nupdated-dependencies:\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pre-commit\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [pyright](https://github.com/RobertCraigie/pyright-python), [pytest](https://github.com/pytest-dev/pytest) and [pre-commit](https://github.com/pre-commit/pre-commit).\n\n\nUpdates `pyright` from 1.1.361 to 1.1.365\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.361...v1.1.365)\n\nUpdates `pytest` from 8.2.0 to 8.2.1\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/8.2.0...8.2.1)\n\nUpdates `pre-commit` from 3.7.0 to 3.7.1\n- [Release notes](https://github.com/pre-commit/pre-commit/releases)\n- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/pre-commit/pre-commit/compare/v3.7.0...v3.7.1)\n\n---\nupdated-dependencies:\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pre-commit\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-06-01T15:12:17Z"
       }
     ],
     "accepted": true
@@ -1480,7 +1558,8 @@
     "commits": [
       {
         "author": "Jake Tanis",
-        "message": "Edited variable names in the rendering templates section of the quickstart guide."
+        "message": "Edited variable names in the rendering templates section of the quickstart guide.",
+        "timestamp": "2024-05-21T23:08:57Z"
       }
     ],
     "accepted": true
@@ -1502,7 +1581,8 @@
     "commits": [
       {
         "author": "Heisenberg",
-        "message": "Added python type annotation and return type."
+        "message": "Added python type annotation and return type.",
+        "timestamp": "2024-05-19T20:34:00Z"
       }
     ],
     "accepted": true
@@ -1518,7 +1598,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "test with python 3.13"
+        "message": "test with python 3.13",
+        "timestamp": "2024-05-11T15:37:47Z"
       }
     ],
     "accepted": true
@@ -1534,7 +1615,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.3.5 \u2192 v0.4.3](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.5...v0.4.3)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.3.5 \u2192 v0.4.3](https://github.com/astral-sh/ruff-pre-commit/compare/v0.3.5...v0.4.3)",
+        "timestamp": "2024-05-06T22:05:35Z"
       }
     ],
     "accepted": true
@@ -1550,11 +1632,13 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group across 1 directory with 6 updates\n\nBumps the python-requirements group with 6 updates in the /requirements directory:\n\n| Package | From | To |\n| --- | --- | --- |\n| [cryptography](https://github.com/pyca/cryptography) | `42.0.5` | `42.0.7` |\n| [mypy](https://github.com/python/mypy) | `1.9.0` | `1.10.0` |\n| [pallets-sphinx-themes](https://github.com/pallets/pallets-sphinx-themes) | `2.1.2` | `2.1.3` |\n| [pyright](https://github.com/RobertCraigie/pyright-python) | `1.1.359` | `1.1.361` |\n| [pytest](https://github.com/pytest-dev/pytest) | `8.1.1` | `8.2.0` |\n| [tox](https://github.com/tox-dev/tox) | `4.14.2` | `4.15.0` |\n\n\n\nUpdates `cryptography` from 42.0.5 to 42.0.7\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/42.0.5...42.0.7)\n\nUpdates `mypy` from 1.9.0 to 1.10.0\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/1.9.0...v1.10.0)\n\nUpdates `pallets-sphinx-themes` from 2.1.2 to 2.1.3\n- [Release notes](https://github.com/pallets/pallets-sphinx-themes/releases)\n- [Changelog](https://github.com/pallets/pallets-sphinx-themes/blob/main/CHANGES.rst)\n- [Commits](https://github.com/pallets/pallets-sphinx-themes/compare/2.1.2...2.1.3)\n\nUpdates `pyright` from 1.1.359 to 1.1.361\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.359...v1.1.361)\n\nUpdates `pytest` from 8.1.1 to 8.2.0\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/8.1.1...8.2.0)\n\nUpdates `tox` from 4.14.2 to 4.15.0\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.14.2...4.15.0)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: pallets-sphinx-themes\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group across 1 directory with 6 updates\n\nBumps the python-requirements group with 6 updates in the /requirements directory:\n\n| Package | From | To |\n| --- | --- | --- |\n| [cryptography](https://github.com/pyca/cryptography) | `42.0.5` | `42.0.7` |\n| [mypy](https://github.com/python/mypy) | `1.9.0` | `1.10.0` |\n| [pallets-sphinx-themes](https://github.com/pallets/pallets-sphinx-themes) | `2.1.2` | `2.1.3` |\n| [pyright](https://github.com/RobertCraigie/pyright-python) | `1.1.359` | `1.1.361` |\n| [pytest](https://github.com/pytest-dev/pytest) | `8.1.1` | `8.2.0` |\n| [tox](https://github.com/tox-dev/tox) | `4.14.2` | `4.15.0` |\n\n\n\nUpdates `cryptography` from 42.0.5 to 42.0.7\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/42.0.5...42.0.7)\n\nUpdates `mypy` from 1.9.0 to 1.10.0\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/1.9.0...v1.10.0)\n\nUpdates `pallets-sphinx-themes` from 2.1.2 to 2.1.3\n- [Release notes](https://github.com/pallets/pallets-sphinx-themes/releases)\n- [Changelog](https://github.com/pallets/pallets-sphinx-themes/blob/main/CHANGES.rst)\n- [Commits](https://github.com/pallets/pallets-sphinx-themes/compare/2.1.2...2.1.3)\n\nUpdates `pyright` from 1.1.359 to 1.1.361\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.359...v1.1.361)\n\nUpdates `pytest` from 8.1.1 to 8.2.0\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/8.1.1...8.2.0)\n\nUpdates `tox` from 4.14.2 to 4.15.0\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.14.2...4.15.0)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: pallets-sphinx-themes\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-05-06T17:19:27Z"
       },
       {
         "author": "David Lord",
-        "message": "fix mypy finding"
+        "message": "fix mypy finding",
+        "timestamp": "2024-05-06T17:23:10Z"
       }
     ],
     "accepted": true
@@ -1570,7 +1654,8 @@
     "commits": [
       {
         "author": "JamesMRamm",
-        "message": "Update pyproject.toml\n\nCorrection to Documentation URL"
+        "message": "Update pyproject.toml\n\nCorrection to Documentation URL",
+        "timestamp": "2024-05-02T07:57:34Z"
       }
     ],
     "accepted": true
@@ -1592,7 +1677,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [actions/checkout](https://github.com/actions/checkout) and [actions/download-artifact](https://github.com/actions/download-artifact).\n\n\nUpdates `actions/checkout` from 4.1.3 to 4.1.4\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/1d96c772d19495a3b5c517cd2bc0cb401ea0529f...0ad4b8fadaa221de15dcec353f45205ec38ea70b)\n\nUpdates `actions/download-artifact` from 4.1.6 to 4.1.7\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/9c19ed7fe5d278cd354c7dfd5d3b88589c7e2395...65a9edc5881444af0b9093a5e628f2fe47ea3b2e)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/download-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [actions/checkout](https://github.com/actions/checkout) and [actions/download-artifact](https://github.com/actions/download-artifact).\n\n\nUpdates `actions/checkout` from 4.1.3 to 4.1.4\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/1d96c772d19495a3b5c517cd2bc0cb401ea0529f...0ad4b8fadaa221de15dcec353f45205ec38ea70b)\n\nUpdates `actions/download-artifact` from 4.1.6 to 4.1.7\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/9c19ed7fe5d278cd354c7dfd5d3b88589c7e2395...65a9edc5881444af0b9093a5e628f2fe47ea3b2e)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/download-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-05-06T17:16:26Z"
       }
     ],
     "accepted": true
@@ -1614,7 +1700,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group across 1 directory with 4 updates\n\nBumps the github-actions group with 4 updates in the / directory: [actions/checkout](https://github.com/actions/checkout), [actions/upload-artifact](https://github.com/actions/upload-artifact), [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) and [actions/download-artifact](https://github.com/actions/download-artifact).\n\n\nUpdates `actions/checkout` from 4.1.2 to 4.1.3\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/9bb56186c3b09b4f86b1c65136769dd318469633...1d96c772d19495a3b5c517cd2bc0cb401ea0529f)\n\nUpdates `actions/upload-artifact` from 3.1.3 to 4.3.3\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/a8a3f3ad30e3422c9c7b888a15615d19a852ae32...65462800fd760344b1a7b4382951275a0abb4808)\n\nUpdates `slsa-framework/slsa-github-generator` from 1.10.0 to 2.0.0\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.10.0...v2.0.0)\n\nUpdates `actions/download-artifact` from 3.0.2 to 4.1.6\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/9bc31d5ccc31df68ecc42ccf4149144866c47d8a...9c19ed7fe5d278cd354c7dfd5d3b88589c7e2395)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/upload-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: actions/download-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group across 1 directory with 4 updates\n\nBumps the github-actions group with 4 updates in the / directory: [actions/checkout](https://github.com/actions/checkout), [actions/upload-artifact](https://github.com/actions/upload-artifact), [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) and [actions/download-artifact](https://github.com/actions/download-artifact).\n\n\nUpdates `actions/checkout` from 4.1.2 to 4.1.3\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/9bb56186c3b09b4f86b1c65136769dd318469633...1d96c772d19495a3b5c517cd2bc0cb401ea0529f)\n\nUpdates `actions/upload-artifact` from 3.1.3 to 4.3.3\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/a8a3f3ad30e3422c9c7b888a15615d19a852ae32...65462800fd760344b1a7b4382951275a0abb4808)\n\nUpdates `slsa-framework/slsa-github-generator` from 1.10.0 to 2.0.0\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.10.0...v2.0.0)\n\nUpdates `actions/download-artifact` from 3.0.2 to 4.1.6\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/9bc31d5ccc31df68ecc42ccf4149144866c47d8a...9c19ed7fe5d278cd354c7dfd5d3b88589c7e2395)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/upload-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: actions/download-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-04-23T23:50:43Z"
       }
     ],
     "accepted": true
@@ -1636,7 +1723,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [pallets-sphinx-themes](https://github.com/pallets/pallets-sphinx-themes), [sphinx](https://github.com/sphinx-doc/sphinx) and [pyright](https://github.com/RobertCraigie/pyright-python).\n\n\nUpdates `pallets-sphinx-themes` from 2.1.1 to 2.1.2\n- [Release notes](https://github.com/pallets/pallets-sphinx-themes/releases)\n- [Changelog](https://github.com/pallets/pallets-sphinx-themes/blob/main/CHANGES.rst)\n- [Commits](https://github.com/pallets/pallets-sphinx-themes/compare/2.1.1...2.1.2)\n\nUpdates `sphinx` from 7.2.6 to 7.3.7\n- [Release notes](https://github.com/sphinx-doc/sphinx/releases)\n- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)\n- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.2.6...v7.3.7)\n\nUpdates `pyright` from 1.1.357 to 1.1.359\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.357...v1.1.359)\n\n---\nupdated-dependencies:\n- dependency-name: pallets-sphinx-themes\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: sphinx\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [pallets-sphinx-themes](https://github.com/pallets/pallets-sphinx-themes), [sphinx](https://github.com/sphinx-doc/sphinx) and [pyright](https://github.com/RobertCraigie/pyright-python).\n\n\nUpdates `pallets-sphinx-themes` from 2.1.1 to 2.1.2\n- [Release notes](https://github.com/pallets/pallets-sphinx-themes/releases)\n- [Changelog](https://github.com/pallets/pallets-sphinx-themes/blob/main/CHANGES.rst)\n- [Commits](https://github.com/pallets/pallets-sphinx-themes/compare/2.1.1...2.1.2)\n\nUpdates `sphinx` from 7.2.6 to 7.3.7\n- [Release notes](https://github.com/sphinx-doc/sphinx/releases)\n- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)\n- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.2.6...v7.3.7)\n\nUpdates `pyright` from 1.1.357 to 1.1.359\n- [Release notes](https://github.com/RobertCraigie/pyright-python/releases)\n- [Commits](https://github.com/RobertCraigie/pyright-python/compare/v1.1.357...v1.1.359)\n\n---\nupdated-dependencies:\n- dependency-name: pallets-sphinx-themes\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: sphinx\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: pyright\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-04-23T23:52:58Z"
       }
     ],
     "accepted": true
@@ -1652,7 +1740,8 @@
     "commits": [
       {
         "author": "\u00c9loi Rivard",
-        "message": "document caveats on SESSION_COOKIE_DOMAIN\n\nChanging this value might result in browsers with several competing session cookies. In\nthat situation there is no guarantee of which one will be sent first, and be used as the\nsession cookie."
+        "message": "document caveats on SESSION_COOKIE_DOMAIN\n\nChanging this value might result in browsers with several competing session cookies. In\nthat situation there is no guarantee of which one will be sent first, and be used as the\nsession cookie.",
+        "timestamp": "2024-04-15T16:28:25Z"
       }
     ],
     "accepted": true
@@ -1668,7 +1757,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.0.3"
+        "message": "release version 3.0.3",
+        "timestamp": "2024-04-07T19:17:41Z"
       }
     ],
     "accepted": true
@@ -1684,7 +1774,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "access sha1 lazily"
+        "message": "access sha1 lazily",
+        "timestamp": "2024-04-07T18:30:30Z"
       }
     ],
     "accepted": true
@@ -1711,7 +1802,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 3 updates\n\nBumps the github-actions group with 3 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads), [actions/checkout](https://github.com/actions/checkout) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `dessant/lock-threads` from 7de207be1d3ce97a9abe6ff1306222982d1ca9f9 to 1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/7de207be1d3ce97a9abe6ff1306222982d1ca9f9...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)\n\nUpdates `actions/checkout` from 4.1.1 to 4.1.2\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/b4ffde65f46336ab88eb53be808477a3936bae11...9bb56186c3b09b4f86b1c65136769dd318469633)\n\nUpdates `pypa/gh-action-pypi-publish` from 68e62d4871ad9d14a9d55f114e6ac71f0b408ec0 to 81e9d935c883d0b210363ab89cf05f3894778450\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/68e62d4871ad9d14a9d55f114e6ac71f0b408ec0...81e9d935c883d0b210363ab89cf05f3894778450)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  dependency-group: github-actions\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 3 updates\n\nBumps the github-actions group with 3 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads), [actions/checkout](https://github.com/actions/checkout) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `dessant/lock-threads` from 7de207be1d3ce97a9abe6ff1306222982d1ca9f9 to 1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/7de207be1d3ce97a9abe6ff1306222982d1ca9f9...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)\n\nUpdates `actions/checkout` from 4.1.1 to 4.1.2\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/b4ffde65f46336ab88eb53be808477a3936bae11...9bb56186c3b09b4f86b1c65136769dd318469633)\n\nUpdates `pypa/gh-action-pypi-publish` from 68e62d4871ad9d14a9d55f114e6ac71f0b408ec0 to 81e9d935c883d0b210363ab89cf05f3894778450\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/68e62d4871ad9d14a9d55f114e6ac71f0b408ec0...81e9d935c883d0b210363ab89cf05f3894778450)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  dependency-group: github-actions\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-04-07T18:04:59Z"
       }
     ],
     "accepted": true
@@ -1733,83 +1825,103 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "update pre-commit hooks"
+        "message": "update pre-commit hooks",
+        "timestamp": "2024-04-06T23:14:49Z"
       },
       {
         "author": "David Lord",
-        "message": "upgrade pip with venv"
+        "message": "upgrade pip with venv",
+        "timestamp": "2024-04-06T23:16:27Z"
       },
       {
         "author": "David Lord",
-        "message": "update description and version"
+        "message": "update description and version",
+        "timestamp": "2024-04-06T23:16:45Z"
       },
       {
         "author": "David Lord",
-        "message": "show url in publish environment"
+        "message": "show url in publish environment",
+        "timestamp": "2024-04-06T23:18:52Z"
       },
       {
         "author": "David Lord",
-        "message": "update versions"
+        "message": "update versions",
+        "timestamp": "2024-04-06T23:19:04Z"
       },
       {
         "author": "David Lord",
-        "message": "update versions, separate typing job"
+        "message": "update versions, separate typing job",
+        "timestamp": "2024-04-06T23:21:56Z"
       },
       {
         "author": "David Lord",
-        "message": "use dependabot grouped updates\n\nignore upload/download-artifact until slsa updates"
+        "message": "use dependabot grouped updates\n\nignore upload/download-artifact until slsa updates",
+        "timestamp": "2024-04-06T23:22:40Z"
       },
       {
         "author": "David Lord",
-        "message": "use sphinx.ext.extlinks instead of sphinx-issues"
+        "message": "use sphinx.ext.extlinks instead of sphinx-issues",
+        "timestamp": "2024-04-06T23:32:57Z"
       },
       {
         "author": "David Lord",
-        "message": "update dev dependencies"
+        "message": "update dev dependencies",
+        "timestamp": "2024-04-06T23:34:57Z"
       },
       {
         "author": "David Lord",
-        "message": "update editorconfig"
+        "message": "update editorconfig",
+        "timestamp": "2024-04-06T23:36:17Z"
       },
       {
         "author": "David Lord",
-        "message": "update gitignore"
+        "message": "update gitignore",
+        "timestamp": "2024-04-06T23:36:26Z"
       },
       {
         "author": "David Lord",
-        "message": "update .readthedocs.yaml"
+        "message": "update .readthedocs.yaml",
+        "timestamp": "2024-04-06T23:36:41Z"
       },
       {
         "author": "David Lord",
-        "message": "license is txt, readme is md"
+        "message": "license is txt, readme is md",
+        "timestamp": "2024-04-06T23:38:11Z"
       },
       {
         "author": "David Lord",
-        "message": "update pyproject.toml\n\nadd typed classifier\nadd pyright config\nsimplify urls"
+        "message": "update pyproject.toml\n\nadd typed classifier\nadd pyright config\nsimplify urls",
+        "timestamp": "2024-04-06T23:40:40Z"
       },
       {
         "author": "David Lord",
-        "message": "tox builds docs in place"
+        "message": "tox builds docs in place",
+        "timestamp": "2024-04-06T23:41:41Z"
       },
       {
         "author": "David Lord",
-        "message": "update min test py version"
+        "message": "update min test py version",
+        "timestamp": "2024-04-06T23:42:04Z"
       },
       {
         "author": "David Lord",
-        "message": "add tox env to update all dev dependencies"
+        "message": "add tox env to update all dev dependencies",
+        "timestamp": "2024-04-06T23:42:30Z"
       },
       {
         "author": "David Lord",
-        "message": "update issue and pr templates"
+        "message": "update issue and pr templates",
+        "timestamp": "2024-04-07T00:16:48Z"
       },
       {
         "author": "David Lord",
-        "message": "rename security docs page to not conflict with org policy file"
+        "message": "rename security docs page to not conflict with org policy file",
+        "timestamp": "2024-04-07T00:22:10Z"
       },
       {
         "author": "David Lord",
-        "message": "simplify matrix"
+        "message": "simplify matrix",
+        "timestamp": "2024-04-07T16:54:36Z"
       }
     ],
     "accepted": true
@@ -1841,7 +1953,8 @@
     "commits": [
       {
         "author": "Sviatoslav Sydorenko (\u0421\u0432\u044f\u0442\u043e\u0441\u043b\u0430\u0432 \u0421\u0438\u0434\u043e\u0440\u0435\u043d\u043a\u043e)",
-        "message": "Use per-release URLs in GH env UI when publishing to the PyPI\n\nThis essentially, makes the UI nicer in a few places with a clickable link to the released version being presented in the web interface of GitHub."
+        "message": "Use per-release URLs in GH env UI when publishing to the PyPI\n\nThis essentially, makes the UI nicer in a few places with a clickable link to the released version being presented in the web interface of GitHub.",
+        "timestamp": "2024-02-27T00:24:27Z"
       }
     ],
     "accepted": true
@@ -1857,7 +1970,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.1.13 \u2192 v0.2.0](https://github.com/astral-sh/ruff-pre-commit/compare/v0.1.13...v0.2.0)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.1.13 \u2192 v0.2.0](https://github.com/astral-sh/ruff-pre-commit/compare/v0.1.13...v0.2.0)",
+        "timestamp": "2024-02-05T20:28:43Z"
       }
     ],
     "accepted": true
@@ -1873,7 +1987,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.0.2"
+        "message": "release version 3.0.2",
+        "timestamp": "2024-02-03T20:54:41Z"
       }
     ],
     "accepted": true
@@ -1889,7 +2004,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group in /requirements with 6 updates\n\nBumps the python-requirements group in /requirements with 6 updates:\n\n| Package | From | To |\n| --- | --- | --- |\n| [sphinx-issues](https://github.com/sloria/sphinx-issues) | `3.0.1` | `4.0.0` |\n| [sphinx-tabs](https://github.com/executablebooks/sphinx-tabs) | `3.4.4` | `3.4.5` |\n| [cryptography](https://github.com/pyca/cryptography) | `41.0.7` | `42.0.2` |\n| [pytest](https://github.com/pytest-dev/pytest) | `7.4.4` | `8.0.0` |\n| [python-dotenv](https://github.com/theskumar/python-dotenv) | `1.0.0` | `1.0.1` |\n| [tox](https://github.com/tox-dev/tox) | `4.12.0` | `4.12.1` |\n\n\nUpdates `sphinx-issues` from 3.0.1 to 4.0.0\n- [Commits](https://github.com/sloria/sphinx-issues/compare/3.0.1...4.0.0)\n\nUpdates `sphinx-tabs` from 3.4.4 to 3.4.5\n- [Release notes](https://github.com/executablebooks/sphinx-tabs/releases)\n- [Changelog](https://github.com/executablebooks/sphinx-tabs/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/executablebooks/sphinx-tabs/compare/v3.4.4...v3.4.5)\n\nUpdates `cryptography` from 41.0.7 to 42.0.2\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/41.0.7...42.0.2)\n\nUpdates `pytest` from 7.4.4 to 8.0.0\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/7.4.4...8.0.0)\n\nUpdates `python-dotenv` from 1.0.0 to 1.0.1\n- [Release notes](https://github.com/theskumar/python-dotenv/releases)\n- [Changelog](https://github.com/theskumar/python-dotenv/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/theskumar/python-dotenv/compare/v1.0.0...v1.0.1)\n\nUpdates `tox` from 4.12.0 to 4.12.1\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.12.0...4.12.1)\n\n---\nupdated-dependencies:\n- dependency-name: sphinx-issues\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: python-requirements\n- dependency-name: sphinx-tabs\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: python-requirements\n- dependency-name: python-dotenv\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group in /requirements with 6 updates\n\nBumps the python-requirements group in /requirements with 6 updates:\n\n| Package | From | To |\n| --- | --- | --- |\n| [sphinx-issues](https://github.com/sloria/sphinx-issues) | `3.0.1` | `4.0.0` |\n| [sphinx-tabs](https://github.com/executablebooks/sphinx-tabs) | `3.4.4` | `3.4.5` |\n| [cryptography](https://github.com/pyca/cryptography) | `41.0.7` | `42.0.2` |\n| [pytest](https://github.com/pytest-dev/pytest) | `7.4.4` | `8.0.0` |\n| [python-dotenv](https://github.com/theskumar/python-dotenv) | `1.0.0` | `1.0.1` |\n| [tox](https://github.com/tox-dev/tox) | `4.12.0` | `4.12.1` |\n\n\nUpdates `sphinx-issues` from 3.0.1 to 4.0.0\n- [Commits](https://github.com/sloria/sphinx-issues/compare/3.0.1...4.0.0)\n\nUpdates `sphinx-tabs` from 3.4.4 to 3.4.5\n- [Release notes](https://github.com/executablebooks/sphinx-tabs/releases)\n- [Changelog](https://github.com/executablebooks/sphinx-tabs/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/executablebooks/sphinx-tabs/compare/v3.4.4...v3.4.5)\n\nUpdates `cryptography` from 41.0.7 to 42.0.2\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/41.0.7...42.0.2)\n\nUpdates `pytest` from 7.4.4 to 8.0.0\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/7.4.4...8.0.0)\n\nUpdates `python-dotenv` from 1.0.0 to 1.0.1\n- [Release notes](https://github.com/theskumar/python-dotenv/releases)\n- [Changelog](https://github.com/theskumar/python-dotenv/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/theskumar/python-dotenv/compare/v1.0.0...v1.0.1)\n\nUpdates `tox` from 4.12.0 to 4.12.1\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.12.0...4.12.1)\n\n---\nupdated-dependencies:\n- dependency-name: sphinx-issues\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: python-requirements\n- dependency-name: sphinx-tabs\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: python-requirements\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: python-requirements\n- dependency-name: python-dotenv\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-02-01T15:41:57Z"
       }
     ],
     "accepted": true
@@ -1905,7 +2021,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `dessant/lock-threads` from 7de207be1d3ce97a9abe6ff1306222982d1ca9f9 to 1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/7de207be1d3ce97a9abe6ff1306222982d1ca9f9...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)\n\nUpdates `pypa/gh-action-pypi-publish` from f946db0f765b9ae754e44bfd5ae5b8b91cfb37ef to 2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/f946db0f765b9ae754e44bfd5ae5b8b91cfb37ef...2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `dessant/lock-threads` from 7de207be1d3ce97a9abe6ff1306222982d1ca9f9 to 1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/7de207be1d3ce97a9abe6ff1306222982d1ca9f9...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)\n\nUpdates `pypa/gh-action-pypi-publish` from f946db0f765b9ae754e44bfd5ae5b8b91cfb37ef to 2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/f946db0f765b9ae754e44bfd5ae5b8b91cfb37ef...2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-02-01T15:31:35Z"
       }
     ],
     "accepted": true
@@ -1927,7 +2044,8 @@
     "commits": [
       {
         "author": "Tony Huang",
-        "message": "fix super call in list comprehension"
+        "message": "fix super call in list comprehension",
+        "timestamp": "2024-01-26T02:08:55Z"
       }
     ],
     "accepted": true
@@ -1943,7 +2061,8 @@
     "commits": [
       {
         "author": "Cody Scott",
-        "message": "fix jinja_loader annotation"
+        "message": "fix jinja_loader annotation",
+        "timestamp": "2024-01-23T16:28:51Z"
       }
     ],
     "accepted": true
@@ -1959,7 +2078,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 3.0.1"
+        "message": "release version 3.0.1",
+        "timestamp": "2024-01-18T17:19:14Z"
       }
     ],
     "accepted": true
@@ -1975,15 +2095,18 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "address mypy strict findings"
+        "message": "address mypy strict findings",
+        "timestamp": "2023-12-14T16:58:13Z"
       },
       {
         "author": "David Lord",
-        "message": "update pre-commit hooks"
+        "message": "update pre-commit hooks",
+        "timestamp": "2024-01-16T18:12:10Z"
       },
       {
         "author": "David Lord",
-        "message": "update requirements"
+        "message": "update requirements",
+        "timestamp": "2024-01-18T17:15:01Z"
       }
     ],
     "accepted": true
@@ -1999,7 +2122,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "untag without object_hook"
+        "message": "untag without object_hook",
+        "timestamp": "2024-01-15T15:47:13Z"
       }
     ],
     "accepted": true
@@ -2015,11 +2139,13 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.1.6 \u2192 v0.1.9](https://github.com/astral-sh/ruff-pre-commit/compare/v0.1.6...v0.1.9)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.1.6 \u2192 v0.1.9](https://github.com/astral-sh/ruff-pre-commit/compare/v0.1.6...v0.1.9)",
+        "timestamp": "2024-01-01T20:24:10Z"
       },
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks\n\nfor more information, see https://pre-commit.ci"
+        "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks\n\nfor more information, see https://pre-commit.ci",
+        "timestamp": "2024-01-01T20:24:30Z"
       }
     ],
     "accepted": true
@@ -2035,7 +2161,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [pytest](https://github.com/pytest-dev/pytest), [mypy](https://github.com/python/mypy) and [pre-commit](https://github.com/pre-commit/pre-commit).\n\n\nUpdates `pytest` from 7.4.3 to 7.4.4\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/7.4.3...7.4.4)\n\nUpdates `mypy` from 1.7.1 to 1.8.0\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/v1.7.1...v1.8.0)\n\nUpdates `pre-commit` from 3.5.0 to 3.6.0\n- [Release notes](https://github.com/pre-commit/pre-commit/releases)\n- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/pre-commit/pre-commit/compare/v3.5.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: pre-commit\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [pytest](https://github.com/pytest-dev/pytest), [mypy](https://github.com/python/mypy) and [pre-commit](https://github.com/pre-commit/pre-commit).\n\n\nUpdates `pytest` from 7.4.3 to 7.4.4\n- [Release notes](https://github.com/pytest-dev/pytest/releases)\n- [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pytest-dev/pytest/compare/7.4.3...7.4.4)\n\nUpdates `mypy` from 1.7.1 to 1.8.0\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/v1.7.1...v1.8.0)\n\nUpdates `pre-commit` from 3.5.0 to 3.6.0\n- [Release notes](https://github.com/pre-commit/pre-commit/releases)\n- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/pre-commit/pre-commit/compare/v3.5.0...v3.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: pytest\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: pre-commit\n  dependency-type: direct:development\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-01-01T15:11:19Z"
       }
     ],
     "accepted": true
@@ -2051,7 +2178,8 @@
     "commits": [
       {
         "author": "Ben Huebscher",
-        "message": "Update docs to address redesigned macOS settings app"
+        "message": "Update docs to address redesigned macOS settings app",
+        "timestamp": "2023-12-05T17:58:59Z"
       }
     ],
     "accepted": true
@@ -2067,7 +2195,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.1.5 \u2192 v0.1.6](https://github.com/astral-sh/ruff-pre-commit/compare/v0.1.5...v0.1.6)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/astral-sh/ruff-pre-commit: v0.1.5 \u2192 v0.1.6](https://github.com/astral-sh/ruff-pre-commit/compare/v0.1.5...v0.1.6)",
+        "timestamp": "2023-12-04T20:29:39Z"
       }
     ],
     "accepted": true
@@ -2083,7 +2212,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `dessant/lock-threads` from 4.0.1 to 5.0.1\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/be8aa5be94131386884a6da4189effda9b14aa21...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)\n\nUpdates `pypa/gh-action-pypi-publish` from 1.8.10 to 1.8.11\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/b7f401de30cb6434a1e19f805ff006643653240e...2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 2 updates\n\nBumps the github-actions group with 2 updates: [dessant/lock-threads](https://github.com/dessant/lock-threads) and [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish).\n\n\nUpdates `dessant/lock-threads` from 4.0.1 to 5.0.1\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/be8aa5be94131386884a6da4189effda9b14aa21...1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771)\n\nUpdates `pypa/gh-action-pypi-publish` from 1.8.10 to 1.8.11\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/b7f401de30cb6434a1e19f805ff006643653240e...2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-12-01T15:47:14Z"
       }
     ],
     "accepted": true
@@ -2099,7 +2229,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [cryptography](https://github.com/pyca/cryptography), [mypy](https://github.com/python/mypy) and [tox](https://github.com/tox-dev/tox).\n\nUpdates `cryptography` from 41.0.5 to 41.0.7\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/41.0.5...41.0.7)\n\nUpdates `mypy` from 1.6.1 to 1.7.1\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/v1.6.1...v1.7.1)\n\nUpdates `tox` from 4.11.3 to 4.11.4\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.11.3...4.11.4)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the python-requirements group in /requirements with 3 updates\n\nBumps the python-requirements group in /requirements with 3 updates: [cryptography](https://github.com/pyca/cryptography), [mypy](https://github.com/python/mypy) and [tox](https://github.com/tox-dev/tox).\n\nUpdates `cryptography` from 41.0.5 to 41.0.7\n- [Changelog](https://github.com/pyca/cryptography/blob/main/CHANGELOG.rst)\n- [Commits](https://github.com/pyca/cryptography/compare/41.0.5...41.0.7)\n\nUpdates `mypy` from 1.6.1 to 1.7.1\n- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/python/mypy/compare/v1.6.1...v1.7.1)\n\nUpdates `tox` from 4.11.3 to 4.11.4\n- [Release notes](https://github.com/tox-dev/tox/releases)\n- [Changelog](https://github.com/tox-dev/tox/blob/main/docs/changelog.rst)\n- [Commits](https://github.com/tox-dev/tox/compare/4.11.3...4.11.4)\n\n---\nupdated-dependencies:\n- dependency-name: cryptography\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n- dependency-name: mypy\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: python-requirements\n- dependency-name: tox\n  dependency-type: direct:development\n  update-type: version-update:semver-patch\n  dependency-group: python-requirements\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-12-01T15:32:16Z"
       }
     ],
     "accepted": true
@@ -2115,7 +2246,8 @@
     "commits": [
       {
         "author": "lizard",
-        "message": "Fixing issue 5342: 'The double quote is missing in the string'"
+        "message": "Fixing issue 5342: 'The double quote is missing in the string'",
+        "timestamp": "2023-11-24T22:03:31Z"
       }
     ],
     "accepted": true
@@ -2137,7 +2269,8 @@
     "commits": [
       {
         "author": "Daniel Isaac",
-        "message": "type hint fix for flask.send_file"
+        "message": "type hint fix for flask.send_file",
+        "timestamp": "2023-11-13T11:28:47Z"
       }
     ],
     "accepted": true
@@ -2164,7 +2297,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "use ruff linter and formatter"
+        "message": "use ruff linter and formatter",
+        "timestamp": "2023-11-09T17:20:27Z"
       }
     ],
     "accepted": true
@@ -2180,7 +2314,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump the github-actions group with 4 updates\n\nBumps the github-actions group with 4 updates: [actions/checkout](https://github.com/actions/checkout), [actions/setup-python](https://github.com/actions/setup-python), [actions/upload-artifact](https://github.com/actions/upload-artifact) and [actions/cache](https://github.com/actions/cache).\n\n\nUpdates `actions/checkout` from 3.6.0 to 4.1.1\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/f43a0e5ff2bd294095638e18286ca9a3d1956744...b4ffde65f46336ab88eb53be808477a3936bae11)\n\nUpdates `actions/setup-python` from 4.7.0 to 4.7.1\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/61a6322f88396a6271a6ee3565807d608ecaddd1...65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236)\n\nUpdates `actions/upload-artifact` from 3.1.2 to 3.1.3\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/0b7f8abb1508181956e8e162db84b466c27e18ce...a8a3f3ad30e3422c9c7b888a15615d19a852ae32)\n\nUpdates `actions/cache` from 3.3.1 to 3.3.2\n- [Release notes](https://github.com/actions/cache/releases)\n- [Changelog](https://github.com/actions/cache/blob/main/RELEASES.md)\n- [Commits](https://github.com/actions/cache/compare/88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8...704facf57e6136b1bc63b828d79edcd491f0ee84)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/upload-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/cache\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump the github-actions group with 4 updates\n\nBumps the github-actions group with 4 updates: [actions/checkout](https://github.com/actions/checkout), [actions/setup-python](https://github.com/actions/setup-python), [actions/upload-artifact](https://github.com/actions/upload-artifact) and [actions/cache](https://github.com/actions/cache).\n\n\nUpdates `actions/checkout` from 3.6.0 to 4.1.1\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/f43a0e5ff2bd294095638e18286ca9a3d1956744...b4ffde65f46336ab88eb53be808477a3936bae11)\n\nUpdates `actions/setup-python` from 4.7.0 to 4.7.1\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/61a6322f88396a6271a6ee3565807d608ecaddd1...65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236)\n\nUpdates `actions/upload-artifact` from 3.1.2 to 3.1.3\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/0b7f8abb1508181956e8e162db84b466c27e18ce...a8a3f3ad30e3422c9c7b888a15615d19a852ae32)\n\nUpdates `actions/cache` from 3.3.1 to 3.3.2\n- [Release notes](https://github.com/actions/cache/releases)\n- [Changelog](https://github.com/actions/cache/blob/main/RELEASES.md)\n- [Commits](https://github.com/actions/cache/compare/88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8...704facf57e6136b1bc63b828d79edcd491f0ee84)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n  dependency-group: github-actions\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/upload-artifact\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: actions/cache\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-11-09T17:01:38Z"
       }
     ],
     "accepted": true
@@ -2196,23 +2331,28 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "update read the docs env"
+        "message": "update read the docs env",
+        "timestamp": "2023-11-09T16:39:48Z"
       },
       {
         "author": "David Lord",
-        "message": "update description"
+        "message": "update description",
+        "timestamp": "2023-11-09T16:40:39Z"
       },
       {
         "author": "David Lord",
-        "message": "update python version matrix"
+        "message": "update python version matrix",
+        "timestamp": "2023-11-09T16:45:23Z"
       },
       {
         "author": "David Lord",
-        "message": "use pip-compile instead of pip-compile-multi"
+        "message": "use pip-compile instead of pip-compile-multi",
+        "timestamp": "2023-11-09T16:46:01Z"
       },
       {
         "author": "David Lord",
-        "message": "enable grouped updates for actions and python"
+        "message": "enable grouped updates for actions and python",
+        "timestamp": "2023-11-09T16:46:13Z"
       }
     ],
     "accepted": true
@@ -2249,11 +2389,13 @@
     "commits": [
       {
         "author": "Resistor-git",
-        "message": "Fix link to Hypercorn in docs/deploying/asgi.rst - they moved from gitlab from github."
+        "message": "Fix link to Hypercorn in docs/deploying/asgi.rst - they moved from gitlab from github.",
+        "timestamp": "2023-10-28T07:38:33Z"
       },
       {
         "author": "Resistor-git",
-        "message": "Initial commit"
+        "message": "Initial commit",
+        "timestamp": "2023-10-28T08:04:03Z"
       }
     ],
     "accepted": true
@@ -2269,7 +2411,8 @@
     "commits": [
       {
         "author": "Arnout Engelen",
-        "message": "docs/testing.rst: fix follow_redirects sample code"
+        "message": "docs/testing.rst: fix follow_redirects sample code",
+        "timestamp": "2023-10-20T15:17:24Z"
       }
     ],
     "accepted": true
@@ -2285,11 +2428,13 @@
     "commits": [
       {
         "author": "Akinola Abiodun Emmanuel",
-        "message": "Update index.rst"
+        "message": "Update index.rst",
+        "timestamp": "2023-10-06T21:21:28Z"
       },
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks\n\nfor more information, see https://pre-commit.ci"
+        "message": "[pre-commit.ci] auto fixes from pre-commit.com hooks\n\nfor more information, see https://pre-commit.ci",
+        "timestamp": "2023-10-06T21:23:47Z"
       }
     ],
     "accepted": true
@@ -2305,7 +2450,8 @@
     "commits": [
       {
         "author": "Iztok Fister Jr",
-        "message": "examples/javascript: replace obsolete page"
+        "message": "examples/javascript: replace obsolete page",
+        "timestamp": "2023-10-05T13:57:54Z"
       }
     ],
     "accepted": true
@@ -2321,7 +2467,8 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Don't set the cli attribute in the sansio scaffold\n\nIt is (currently) Flask specific and hence cannot be shared in the\nsansio shared code."
+        "message": "Don't set the cli attribute in the sansio scaffold\n\nIt is (currently) Flask specific and hence cannot be shared in the\nsansio shared code.",
+        "timestamp": "2023-10-01T15:37:05Z"
       }
     ],
     "accepted": true
@@ -2337,7 +2484,8 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Allow self as an argument to url_for\n\nThis makes the Flask.url_for self argument positional only (Flask\nsupports Python 3.8+) thereby restoring the ability to pass self as a\nvalue argument to url_for."
+        "message": "Allow self as an argument to url_for\n\nThis makes the Flask.url_for self argument positional only (Flask\nsupports Python 3.8+) thereby restoring the ability to pass self as a\nvalue argument to url_for.",
+        "timestamp": "2023-09-24T15:16:55Z"
       }
     ],
     "accepted": true
@@ -2359,7 +2507,8 @@
     "commits": [
       {
         "author": "nick2202",
-        "message": "Fix wrong spelling of JS method .innerHTML"
+        "message": "Fix wrong spelling of JS method .innerHTML",
+        "timestamp": "2023-09-22T08:13:43Z"
       }
     ],
     "accepted": true
@@ -2375,11 +2524,13 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Bump Werkzeug 3.0.0"
+        "message": "Bump Werkzeug 3.0.0",
+        "timestamp": "2023-09-30T14:08:50Z"
       },
       {
         "author": "pgjones",
-        "message": "Release version 3.0.0"
+        "message": "Release version 3.0.0",
+        "timestamp": "2023-09-16T15:01:21Z"
       }
     ],
     "accepted": true
@@ -2395,7 +2546,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump pypa/gh-action-pypi-publish from 1.8.8 to 1.8.10\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.8 to 1.8.10.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/f8c70e705ffc13c3b4d1221169b84f12a75d6ca8...b7f401de30cb6434a1e19f805ff006643653240e)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump pypa/gh-action-pypi-publish from 1.8.8 to 1.8.10\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.8 to 1.8.10.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/f8c70e705ffc13c3b4d1221169b84f12a75d6ca8...b7f401de30cb6434a1e19f805ff006643653240e)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-09-01T16:30:35Z"
       }
     ],
     "accepted": true
@@ -2411,7 +2563,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump slsa-framework/slsa-github-generator from 1.7.0 to 1.9.0\n\nBumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.7.0 to 1.9.0.\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.7.0...v1.9.0)\n\n---\nupdated-dependencies:\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump slsa-framework/slsa-github-generator from 1.7.0 to 1.9.0\n\nBumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.7.0 to 1.9.0.\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.7.0...v1.9.0)\n\n---\nupdated-dependencies:\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-09-01T16:30:31Z"
       }
     ],
     "accepted": true
@@ -2427,7 +2580,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump actions/checkout from 3.5.3 to 3.6.0\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.5.3 to 3.6.0.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/c85c95e3d7251135ab7dc9ce3241c5835cc595a9...f43a0e5ff2bd294095638e18286ca9a3d1956744)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump actions/checkout from 3.5.3 to 3.6.0\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.5.3 to 3.6.0.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/c85c95e3d7251135ab7dc9ce3241c5835cc595a9...f43a0e5ff2bd294095638e18286ca9a3d1956744)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-09-01T16:30:27Z"
       }
     ],
     "accepted": true
@@ -2443,7 +2597,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "deprecate __version__ attribute"
+        "message": "deprecate __version__ attribute",
+        "timestamp": "2023-08-29T13:03:11Z"
       }
     ],
     "accepted": true
@@ -2459,7 +2614,8 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Remove print left in by accident\n\nThis was added as per 0ec7f713d679ceed2c605e62ac5d38d579f29fa0 by\nmistake."
+        "message": "Remove print left in by accident\n\nThis was added as per 0ec7f713d679ceed2c605e62ac5d38d579f29fa0 by\nmistake.",
+        "timestamp": "2023-08-27T09:17:12Z"
       }
     ],
     "accepted": true
@@ -2475,7 +2631,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 2.3.3"
+        "message": "release version 2.3.3",
+        "timestamp": "2023-08-21T17:25:35Z"
       }
     ],
     "accepted": true
@@ -2497,7 +2654,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "bump werkzeug 2.3.7\n\nuse importlib.metadata.version"
+        "message": "bump werkzeug 2.3.7\n\nuse importlib.metadata.version",
+        "timestamp": "2023-08-21T16:39:10Z"
       }
     ],
     "accepted": true
@@ -2513,7 +2671,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "remove deprecated code"
+        "message": "remove deprecated code",
+        "timestamp": "2023-08-16T22:00:49Z"
       }
     ],
     "accepted": true
@@ -2529,11 +2688,13 @@
     "commits": [
       {
         "author": "pavithra",
-        "message": "update dispatch-by-path example"
+        "message": "update dispatch-by-path example",
+        "timestamp": "2023-08-13T12:12:25Z"
       },
       {
         "author": "David Lord",
-        "message": "clean up"
+        "message": "clean up",
+        "timestamp": "2023-08-16T21:25:53Z"
       }
     ],
     "accepted": true
@@ -2555,7 +2716,8 @@
     "commits": [
       {
         "author": "hauntsaninja",
-        "message": "Pass maxsplit via kwarg to re.split"
+        "message": "Pass maxsplit via kwarg to re.split",
+        "timestamp": "2023-08-08T09:10:49Z"
       }
     ],
     "accepted": true
@@ -2571,7 +2733,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump pypa/gh-action-pypi-publish from 1.8.7 to 1.8.8\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.7 to 1.8.8.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/f5622bde02b04381239da3573277701ceca8f6a0...f8c70e705ffc13c3b4d1221169b84f12a75d6ca8)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump pypa/gh-action-pypi-publish from 1.8.7 to 1.8.8\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.7 to 1.8.8.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/f5622bde02b04381239da3573277701ceca8f6a0...f8c70e705ffc13c3b4d1221169b84f12a75d6ca8)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-08-01T16:56:22Z"
       }
     ],
     "accepted": true
@@ -2587,7 +2750,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump actions/setup-python from 4.6.1 to 4.7.0\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4.6.1 to 4.7.0.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/bd6b4b6205c4dbad673328db7b31b7fab9e241c0...61a6322f88396a6271a6ee3565807d608ecaddd1)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump actions/setup-python from 4.6.1 to 4.7.0\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4.6.1 to 4.7.0.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/bd6b4b6205c4dbad673328db7b31b7fab9e241c0...61a6322f88396a6271a6ee3565807d608ecaddd1)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-08-01T16:56:18Z"
       }
     ],
     "accepted": true
@@ -2603,7 +2767,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/asottile/pyupgrade: v3.8.0 \u2192 v3.10.1](https://github.com/asottile/pyupgrade/compare/v3.8.0...v3.10.1)\n- [github.com/psf/black: 23.3.0 \u2192 23.7.0](https://github.com/psf/black/compare/23.3.0...23.7.0)\n- [github.com/PyCQA/flake8: 6.0.0 \u2192 6.1.0](https://github.com/PyCQA/flake8/compare/6.0.0...6.1.0)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/asottile/pyupgrade: v3.8.0 \u2192 v3.10.1](https://github.com/asottile/pyupgrade/compare/v3.8.0...v3.10.1)\n- [github.com/psf/black: 23.3.0 \u2192 23.7.0](https://github.com/psf/black/compare/23.3.0...23.7.0)\n- [github.com/PyCQA/flake8: 6.0.0 \u2192 6.1.0](https://github.com/PyCQA/flake8/compare/6.0.0...6.1.0)",
+        "timestamp": "2023-08-01T08:45:55Z"
       }
     ],
     "accepted": true
@@ -2619,7 +2784,8 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/asottile/pyupgrade: v3.7.0 \u2192 v3.8.0](https://github.com/asottile/pyupgrade/compare/v3.7.0...v3.8.0)"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- [github.com/asottile/pyupgrade: v3.7.0 \u2192 v3.8.0](https://github.com/asottile/pyupgrade/compare/v3.7.0...v3.8.0)",
+        "timestamp": "2023-07-04T06:36:29Z"
       }
     ],
     "accepted": true
@@ -2635,7 +2801,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump actions/checkout from 3.5.2 to 3.5.3\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.5.2 to 3.5.3.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/8e5e7e5ab8b370d6c329ec480221332ada57f0ab...c85c95e3d7251135ab7dc9ce3241c5835cc595a9)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump actions/checkout from 3.5.2 to 3.5.3\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.5.2 to 3.5.3.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/8e5e7e5ab8b370d6c329ec480221332ada57f0ab...c85c95e3d7251135ab7dc9ce3241c5835cc595a9)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-07-01T16:16:28Z"
       }
     ],
     "accepted": true
@@ -2651,7 +2818,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump slsa-framework/slsa-github-generator from 1.6.0 to 1.7.0\n\nBumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.6.0 to 1.7.0.\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.6.0...v1.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump slsa-framework/slsa-github-generator from 1.6.0 to 1.7.0\n\nBumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.6.0 to 1.7.0.\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.6.0...v1.7.0)\n\n---\nupdated-dependencies:\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-07-01T16:16:25Z"
       }
     ],
     "accepted": true
@@ -2667,7 +2835,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump dessant/lock-threads from 4.0.0 to 4.0.1\n\nBumps [dessant/lock-threads](https://github.com/dessant/lock-threads) from 4.0.0 to 4.0.1.\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/c1b35aecc5cdb1a34539d14196df55838bb2f836...be8aa5be94131386884a6da4189effda9b14aa21)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump dessant/lock-threads from 4.0.0 to 4.0.1\n\nBumps [dessant/lock-threads](https://github.com/dessant/lock-threads) from 4.0.0 to 4.0.1.\n- [Release notes](https://github.com/dessant/lock-threads/releases)\n- [Changelog](https://github.com/dessant/lock-threads/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/dessant/lock-threads/compare/c1b35aecc5cdb1a34539d14196df55838bb2f836...be8aa5be94131386884a6da4189effda9b14aa21)\n\n---\nupdated-dependencies:\n- dependency-name: dessant/lock-threads\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-07-01T16:16:22Z"
       }
     ],
     "accepted": true
@@ -2683,7 +2852,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump pypa/gh-action-pypi-publish from 1.8.6 to 1.8.7\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.6 to 1.8.7.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/a56da0b891b3dc519c7ee3284aff1fad93cc8598...f5622bde02b04381239da3573277701ceca8f6a0)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump pypa/gh-action-pypi-publish from 1.8.6 to 1.8.7\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.6 to 1.8.7.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/a56da0b891b3dc519c7ee3284aff1fad93cc8598...f5622bde02b04381239da3573277701ceca8f6a0)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-07-01T16:16:19Z"
       }
     ],
     "accepted": true
@@ -2710,7 +2880,8 @@
     "commits": [
       {
         "author": "Pamela Fox",
-        "message": "Update install.rst with required description"
+        "message": "Update install.rst with required description",
+        "timestamp": "2023-07-01T14:09:51Z"
       }
     ],
     "accepted": true
@@ -2726,7 +2897,8 @@
     "commits": [
       {
         "author": "ToolMoney",
-        "message": "fix typo in errorhandling doc"
+        "message": "fix typo in errorhandling doc",
+        "timestamp": "2023-06-30T00:20:35Z"
       }
     ],
     "accepted": true
@@ -2748,15 +2920,18 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "switch to flit build backend"
+        "message": "switch to flit build backend",
+        "timestamp": "2023-06-27T21:03:25Z"
       },
       {
         "author": "David Lord",
-        "message": "switch examples to flit"
+        "message": "switch examples to flit",
+        "timestamp": "2023-06-27T21:03:41Z"
       },
       {
         "author": "David Lord",
-        "message": "switch docs to flit"
+        "message": "switch docs to flit",
+        "timestamp": "2023-06-27T21:11:18Z"
       }
     ],
     "accepted": true
@@ -2772,7 +2947,8 @@
     "commits": [
       {
         "author": "mohammad m. moniri",
-        "message": "update import of declarative_base from SQLAlchemy"
+        "message": "update import of declarative_base from SQLAlchemy",
+        "timestamp": "2023-06-21T14:54:33Z"
       }
     ],
     "accepted": true
@@ -2788,7 +2964,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "fix use of importlib.util.find_spec"
+        "message": "fix use of importlib.util.find_spec",
+        "timestamp": "2023-06-09T16:34:42Z"
       }
     ],
     "accepted": true
@@ -2804,11 +2981,13 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "use importlib instead of pkgutil"
+        "message": "use importlib instead of pkgutil",
+        "timestamp": "2023-06-07T20:07:41Z"
       },
       {
         "author": "David Lord",
-        "message": "update werkzeug to 2.3.5"
+        "message": "update werkzeug to 2.3.5",
+        "timestamp": "2023-06-07T20:09:07Z"
       }
     ],
     "accepted": true
@@ -2824,11 +3003,13 @@
     "commits": [
       {
         "author": "pre-commit-ci[bot]",
-        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- https://github.com/asottile/reorder_python_imports \u2192 https://github.com/asottile/reorder-python-imports"
+        "message": "[pre-commit.ci] pre-commit autoupdate\n\nupdates:\n- https://github.com/asottile/reorder_python_imports \u2192 https://github.com/asottile/reorder-python-imports",
+        "timestamp": "2023-06-06T04:21:31Z"
       },
       {
         "author": "David Lord",
-        "message": "ignore pytest ast warnings"
+        "message": "ignore pytest ast warnings",
+        "timestamp": "2023-06-06T16:30:34Z"
       }
     ],
     "accepted": true
@@ -2844,7 +3025,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump actions/setup-python from 4.6.0 to 4.6.1\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4.6.0 to 4.6.1.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/57ded4d7d5e986d7296eab16560982c6dd7c923b...bd6b4b6205c4dbad673328db7b31b7fab9e241c0)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump actions/setup-python from 4.6.0 to 4.6.1\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4.6.0 to 4.6.1.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/57ded4d7d5e986d7296eab16560982c6dd7c923b...bd6b4b6205c4dbad673328db7b31b7fab9e241c0)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-06-01T16:56:50Z"
       }
     ],
     "accepted": true
@@ -2860,7 +3042,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump pypa/gh-action-pypi-publish from 1.8.5 to 1.8.6\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.5 to 1.8.6.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/0bf742be3ebe032c25dd15117957dc15d0cfc38d...a56da0b891b3dc519c7ee3284aff1fad93cc8598)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump pypa/gh-action-pypi-publish from 1.8.5 to 1.8.6\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.5 to 1.8.6.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/0bf742be3ebe032c25dd15117957dc15d0cfc38d...a56da0b891b3dc519c7ee3284aff1fad93cc8598)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-06-01T16:56:46Z"
       }
     ],
     "accepted": true
@@ -2876,7 +3059,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump slsa-framework/slsa-github-generator from 1.5.0 to 1.6.0\n\nBumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.5.0 to 1.6.0.\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.5.0...v1.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump slsa-framework/slsa-github-generator from 1.5.0 to 1.6.0\n\nBumps [slsa-framework/slsa-github-generator](https://github.com/slsa-framework/slsa-github-generator) from 1.5.0 to 1.6.0.\n- [Release notes](https://github.com/slsa-framework/slsa-github-generator/releases)\n- [Changelog](https://github.com/slsa-framework/slsa-github-generator/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/slsa-framework/slsa-github-generator/compare/v1.5.0...v1.6.0)\n\n---\nupdated-dependencies:\n- dependency-name: slsa-framework/slsa-github-generator\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-06-01T16:56:43Z"
       }
     ],
     "accepted": true
@@ -2892,7 +3076,8 @@
     "commits": [
       {
         "author": "Jeroendevr",
-        "message": "Config from Data Files to match from_file API\n\nIn the API docs using a TOML file to load config is referred to as https://flask.palletsprojects.com/en/2.3.x/api/#flask.Config.from_file\r\n\r\nTo keep docs consistent a small change to the config docs."
+        "message": "Config from Data Files to match from_file API\n\nIn the API docs using a TOML file to load config is referred to as https://flask.palletsprojects.com/en/2.3.x/api/#flask.Config.from_file\r\n\r\nTo keep docs consistent a small change to the config docs.",
+        "timestamp": "2023-05-24T09:13:36Z"
       }
     ],
     "accepted": true
@@ -2914,7 +3099,8 @@
     "commits": [
       {
         "author": "Pedro Guilherme S. Moreira",
-        "message": "Fix wrong FormData.append syntax on javascript.rst"
+        "message": "Fix wrong FormData.append syntax on javascript.rst",
+        "timestamp": "2023-05-18T12:26:52Z"
       }
     ],
     "accepted": true
@@ -2967,35 +3153,43 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Move file to sansio\n\nThis is preperation for refactoring the files so that there are sansio\nand flask specific versions. This structure follows the Werkzeug\nstructure/pattern."
+        "message": "Move file to sansio\n\nThis is preperation for refactoring the files so that there are sansio\nand flask specific versions. This structure follows the Werkzeug\nstructure/pattern.",
+        "timestamp": "2023-06-10T11:42:24Z"
       },
       {
         "author": "pgjones",
-        "message": "Split the App and Blueprint into Sansio and IO parts\n\nThis follows a similar structure in Werkzeug and allows for async\nbased IO projects, specifically Quart, to base themselves on\nFlask.\n\nNote that the globals, and signals are specific to Flask and hence\nspecific to Flask's IO. This means they cannot be moved to the sansio\npart of the codebase."
+        "message": "Split the App and Blueprint into Sansio and IO parts\n\nThis follows a similar structure in Werkzeug and allows for async\nbased IO projects, specifically Quart, to base themselves on\nFlask.\n\nNote that the globals, and signals are specific to Flask and hence\nspecific to Flask's IO. This means they cannot be moved to the sansio\npart of the codebase.",
+        "timestamp": "2023-06-11T14:03:45Z"
       },
       {
         "author": "pgjones",
-        "message": "Provide an extendable merge blueprint funcs method\n\nThis allows a Blueprint implementation that has additional funcs, such\nas Quart with its before_websocket_funcs (as example), to extend the\nmerge method to also merge these functions."
+        "message": "Provide an extendable merge blueprint funcs method\n\nThis allows a Blueprint implementation that has additional funcs, such\nas Quart with its before_websocket_funcs (as example), to extend the\nmerge method to also merge these functions.",
+        "timestamp": "2023-07-15T16:28:04Z"
       },
       {
         "author": "pgjones",
-        "message": "Support async template context processors\n\nThis is useful as there is contextual information that could be loaded\nvia IO e.g. information from a database. This also matches Quart and\nhence makes the shared signature easier to manage."
+        "message": "Support async template context processors\n\nThis is useful as there is contextual information that could be loaded\nvia IO e.g. information from a database. This also matches Quart and\nhence makes the shared signature easier to manage.",
+        "timestamp": "2023-07-15T22:21:12Z"
       },
       {
         "author": "pgjones",
-        "message": "Widen the response typing\n\nWhilst not strictly true for Flask, it is true for Flask and Quart and\nhence makes it much easier for Quart to extend Flask classes. The\nalternatives are generic usage in the sansio codebase or mixed usage\nwithin Flask. I think this is a good compromise."
+        "message": "Widen the response typing\n\nWhilst not strictly true for Flask, it is true for Flask and Quart and\nhence makes it much easier for Quart to extend Flask classes. The\nalternatives are generic usage in the sansio codebase or mixed usage\nwithin Flask. I think this is a good compromise.",
+        "timestamp": "2023-07-16T13:04:23Z"
       },
       {
         "author": "pgjones",
-        "message": "Correct the error handler typing\n\nIt may also be awaitable, as invocations are wrapped in ensure_sync."
+        "message": "Correct the error handler typing\n\nIt may also be awaitable, as invocations are wrapped in ensure_sync.",
+        "timestamp": "2023-08-14T10:10:15Z"
       },
       {
         "author": "pgjones",
-        "message": "Add a brief README to the sansio\n\nThis should hopefully explain what it is used for and why certain code\ncannot be present in it."
+        "message": "Add a brief README to the sansio\n\nThis should hopefully explain what it is used for and why certain code\ncannot be present in it.",
+        "timestamp": "2023-08-15T07:29:57Z"
       },
       {
         "author": "pgjones",
-        "message": "Add a changelog for the sans-io changes"
+        "message": "Add a changelog for the sans-io changes",
+        "timestamp": "2023-08-19T18:25:36Z"
       }
     ],
     "accepted": true
@@ -3011,7 +3205,8 @@
     "commits": [
       {
         "author": "pgjones",
-        "message": "Allow for PathLike types for config file variables\n\nThis follows the Flask practice elsewhere and makes it clear PathLike\nfilenames are valid."
+        "message": "Allow for PathLike types for config file variables\n\nThis follows the Flask practice elsewhere and makes it clear PathLike\nfilenames are valid.",
+        "timestamp": "2023-05-14T15:09:25Z"
       }
     ],
     "accepted": true
@@ -3027,11 +3222,13 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "remove egg test\n\neggs aren't supported, and Python 3.12 removes setuptools"
+        "message": "remove egg test\n\neggs aren't supported, and Python 3.12 removes setuptools",
+        "timestamp": "2023-05-02T16:53:31Z"
       },
       {
         "author": "David Lord",
-        "message": "use tmp_path instead of tmpdir"
+        "message": "use tmp_path instead of tmpdir",
+        "timestamp": "2023-05-02T17:38:27Z"
       }
     ],
     "accepted": true
@@ -3047,7 +3244,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "release version 2.2.5"
+        "message": "release version 2.2.5",
+        "timestamp": "2023-05-02T14:35:27Z"
       }
     ],
     "accepted": true
@@ -3063,7 +3261,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "set `Vary: Cookie` header consistently for session"
+        "message": "set `Vary: Cookie` header consistently for session",
+        "timestamp": "2023-05-01T15:01:32Z"
       }
     ],
     "accepted": true
@@ -3079,7 +3278,8 @@
     "commits": [
       {
         "author": "David Lord",
-        "message": "werkzeug 2.3.3 compatibility"
+        "message": "werkzeug 2.3.3 compatibility",
+        "timestamp": "2023-05-02T14:05:51Z"
       }
     ],
     "accepted": true
@@ -3095,7 +3295,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump pypa/gh-action-pypi-publish from 1.8.4 to 1.8.5\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.4 to 1.8.5.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/29930c9cf57955dc1b98162d0d8bc3ec80d9e75c...0bf742be3ebe032c25dd15117957dc15d0cfc38d)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump pypa/gh-action-pypi-publish from 1.8.4 to 1.8.5\n\nBumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.8.4 to 1.8.5.\n- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)\n- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/29930c9cf57955dc1b98162d0d8bc3ec80d9e75c...0bf742be3ebe032c25dd15117957dc15d0cfc38d)\n\n---\nupdated-dependencies:\n- dependency-name: pypa/gh-action-pypi-publish\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-05-01T16:57:14Z"
       }
     ],
     "accepted": true
@@ -3111,7 +3312,8 @@
     "commits": [
       {
         "author": "dependabot[bot]",
-        "message": "Bump actions/setup-python from 4.5.0 to 4.6.0\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4.5.0 to 4.6.0.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/d27e3f3d7c64b4bbf8e4abfb9b63b83e846e0435...57ded4d7d5e986d7296eab16560982c6dd7c923b)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+        "message": "Bump actions/setup-python from 4.5.0 to 4.6.0\n\nBumps [actions/setup-python](https://github.com/actions/setup-python) from 4.5.0 to 4.6.0.\n- [Release notes](https://github.com/actions/setup-python/releases)\n- [Commits](https://github.com/actions/setup-python/compare/d27e3f3d7c64b4bbf8e4abfb9b63b83e846e0435...57ded4d7d5e986d7296eab16560982c6dd7c923b)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-python\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-05-01T16:57:10Z"
       }
     ],
     "accepted": true
