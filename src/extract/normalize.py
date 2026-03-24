@@ -19,5 +19,6 @@ def normalize_comment(comment):
 def normalize_commit(commit):
     return {
         "author": commit["commit"]["author"]["name"],
-        "message": commit["commit"]["message"]
+        "message": commit["commit"]["message"],
+        "timestamp": commit["commit"]["author"]["date"]
     }
